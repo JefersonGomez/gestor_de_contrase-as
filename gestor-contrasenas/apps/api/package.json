@@ -1,0 +1,13 @@
+{
+  "name": "@gestor/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@gestor/crypto": "*"
+  }
+}

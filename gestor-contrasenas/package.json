@@ -1,0 +1,18 @@
+{
+  "name": "gestor-contrasenas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": ["apps/*", "packages/*"],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b --noEmit",
+    "clean": "tsc -b --clean"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
